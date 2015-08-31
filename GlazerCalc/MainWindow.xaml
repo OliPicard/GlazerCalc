@@ -1,0 +1,18 @@
+﻿<Window x:Class="GlazerCalc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GlazerCalc"
+        mc:Ignorable="d"
+        Title="GlazerCalc" Height="200" Width="255" ResizeMode="CanMinimize">
+    <Grid>
+        <TextBox x:Name="tbWidth" HorizontalAlignment="Left" Height="23" Margin="89,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="tbHeight" HorizontalAlignment="Left" Height="23" Margin="89,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
+        <Label x:Name="lbheight" Content="Height" HorizontalAlignment="Left" Margin="39,79,0,0" VerticalAlignment="Top"></Label>
+        <Label x:Name="lbwidth" Content="Width" HorizontalAlignment="Left" Margin="39,107,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Calculate" HorizontalAlignment="Left" Margin="53,138,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.132,0.577"/>
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
