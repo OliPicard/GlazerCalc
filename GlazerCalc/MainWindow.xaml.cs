@@ -46,7 +46,7 @@ namespace GlazerCalc
             }
             if (heightString == "")
             {
-                MessageBox.Show("Error: Widh is invaild, provide a number.");
+                MessageBox.Show("Error: Glass is invaild, provide a number.");
             }
             else
             {
